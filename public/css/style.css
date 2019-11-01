@@ -17,23 +17,32 @@
 .header-content h1 {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   text-transform: uppercase;
   color: #fff;
-    font-family: 'QuickKiss';
+  font-family: QuickKiss, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 5px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-bottom: 10px;
   text-transform: capitalize;
   color: #fff;
   font-weight: 500;
-
+}
+.btn-primary {
+  border: 1px solid #BDBDBD;        /* border: tebal[px] tipe[solid,dashed,dotted] warna[#hex, rgb()]; */
+  background-color: #424242;        /* ubah warna background */
+  color: #E0E0E0;                   /* ubah warna font */
+  font-size: 16px;                  /* ubah ukuran font */
+                  /* set tinggi button. ukuran width = ukuran height */              /* set line height = font size */
+               /* text posisi center */
+              /* set radius sudut pada button */
 }
 @font-face { 
   font-family: 'QuickKiss'; 
-  src: url('fonts/QuickKissPersonalUse-PxlZ.ttf') format('truetype'); 
+    src: url(https://fonts.googleapis.com/css?family=Acme&display=swap); 
 } 
